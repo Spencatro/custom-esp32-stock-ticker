@@ -2,7 +2,7 @@
 
 Display a stock symbol on a custom-build multiplexed LED grid using ESP32 SOC and finnhub.io
 
-![Stock Ticker Video](https://media.giphy.com/media/bXthvr191GygM4luh5/giphy-downsized-large.gif)
+![Stock Ticker Video](https://i.giphy.com/media/bXthvr191GygM4luh5/giphy-downsized-large.gif)
 
 This project is derived from a few esp32 idf examples:
 - peripherals/gpio/generic_gpio/ - basic GPIO operation
