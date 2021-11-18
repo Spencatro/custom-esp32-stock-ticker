@@ -1,0 +1,13 @@
+#cmakedefine FINNHUB_API_KEY "@FINNHUB_API_KEY@"
+
+#define WEB_PORT "443"
+#define WEB_SERVER "finnhub.io"
+#define STOCK_SYMBOL "RIVN"
+#define WEB_URL "https://finnhub.io/api/v1/quote?symbol=" STOCK_SYMBOL "&token="
+
+static const char *TAG = "stock";
+
+static const char REQUEST[] = "GET " WEB_URL FINNHUB_API_KEY " HTTP/1.1\r\n"
+                             "Host: "WEB_SERVER"\r\n"
+                             "User-Agent: esp-idf/1.0 esp32\r\n"
+                             "\r\n";
